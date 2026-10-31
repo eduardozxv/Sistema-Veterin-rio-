@@ -1,65 +1,55 @@
-🐾 Sistema de Gerenciamento de Clínica Veterinária
+# VetCare — Sistema de Gerenciamento de Clínica Veterinária
 
-Sistema desenvolvido em Java como projeto acadêmico do curso de Engenharia de Software, com o objetivo de aplicar conceitos de Programação Orientada a Objetos (POO) no gerenciamento de uma clínica veterinária.
+O VetCare é um sistema desktop desenvolvido em Java com JavaFX, com o objetivo de auxiliar no gerenciamento das atividades de uma clínica veterinária.
 
-A aplicação permite cadastrar animais e veterinários, gerenciar consultas e controlar a agenda de atendimentos, utilizando validações para garantir a consistência das operações.
+## Funcionalidades
 
-🚀 Funcionalidades
+- Cadastro, consulta, edição e desativação de animais.
+- Cadastro, consulta, edição e desativação de veterinários.
+- Agendamento de consultas.
+- Cancelamento e conclusão de consultas.
+- Controle de disponibilidade dos veterinários.
+- Dashboard com indicadores.
+- Interface gráfica com tema claro e escuro.
 
-Cadastro de animais: registro de informações como nome, espécie, raça, idade e tutor.
+## Tecnologias utilizadas
 
-Cadastro de veterinários: gerenciamento de dados, especialidades e CRMV dos profissionais.
+- Java 25
+- JavaFX 25
+- Maven
+- CSS
+- IntelliJ IDEA
 
-Agendamento de consultas: associação entre animais e veterinários, com definição de dia, horário e motivo.
+## Estrutura do projeto
 
-Controle de consultas: possibilidade de agendar, cancelar e registrar consultas como realizadas.
+SistemaVeterinario/
+├── src/
+│   └── main/
+│       ├── java/
+│       │   ├── Animal.java
+│       │   ├── Consulta.java
+│       │   ├── GerenciadorClinica.java
+│       │   ├── Main.java
+│       │   └── Veterinario.java
+│       └── resources/
+│           └── vetcare.css
+├── pom.xml
+└── README.md
+```
 
-Validação de horários: identificação de conflitos na agenda de veterinários e animais.
+## Como executar
 
-Gerenciamento de cadastros: busca por código e desativação de animais e veterinários.
+1. Clone o repositório.
+2. Abra o projeto no IntelliJ IDEA.
+3. Aguarde o Maven carregar as dependências.
+4. Execute a aplicação pela configuração Maven `javafx:run`.
 
-Consulta de atendimentos: visualização de todas as consultas ou filtragem por animal.
+## Objetivo acadêmico
 
-Visualização da agenda: exibição dos horários ocupados dos veterinários por dia da semana.
+Projeto desenvolvido como parte dos estudos em Engenharia de Software, com foco na aplicação prática de Programação Orientada a Objetos, Java e desenvolvimento de interfaces gráficas.
 
-🛠️ Tecnologias e conceitos
+## Autor
 
-Linguagem: Java
+Desenvolvido por [Seu nome]
 
-Paradigma: Programação Orientada a Objetos (POO)
-
-Conceitos aplicados: classes, objetos, encapsulamento, construtores, métodos e sobrecarga de construtores.
-
-Estruturas de dados: arrays e matrizes.
-
-Lógica de programação: estruturas condicionais, laços de repetição, validação de dados e implementação de regras de negócio.
-
-Entrada de dados: classe Scanner.
-
-📂 Organização do projeto
-
-O sistema está organizado nas seguintes classes:
-
-Classe
-
-Responsabilidade
-
-Animal.java
-
-Representa os animais cadastrados na clínica.
-
-Veterinario.java
-
-Representa os veterinários e seus dados profissionais.
-
-Consulta.java
-
-Gerencia os dados e a situação das consultas.
-
-GerenciadorClinica.java
-
-Centraliza os cadastros, agendamentos, buscas e regras de negócio.
-
-Main.java
-
-Implementa o menu interativo e a interação com o usuário.
+[GitHub](https://github.com/eduardozxv)
