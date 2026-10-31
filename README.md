@@ -20,36 +20,11 @@ O VetCare é um sistema desktop desenvolvido em Java com JavaFX, com o objetivo 
 - CSS
 - IntelliJ IDEA
 
-## Estrutura do projeto
-
-SistemaVeterinario/
-├── src/
-│   └── main/
-│       ├── java/
-│       │   ├── Animal.java
-│       │   ├── Consulta.java
-│       │   ├── GerenciadorClinica.java
-│       │   ├── Main.java
-│       │   └── Veterinario.java
-│       └── resources/
-│           └── vetcare.css
-├── pom.xml
-└── README.md
-```
-
-## Como executar
-
-1. Clone o repositório.
-2. Abra o projeto no IntelliJ IDEA.
-3. Aguarde o Maven carregar as dependências.
-4. Execute a aplicação pela configuração Maven `javafx:run`.
-
 ## Objetivo acadêmico
 
 Projeto desenvolvido como parte dos estudos em Engenharia de Software, com foco na aplicação prática de Programação Orientada a Objetos, Java e desenvolvimento de interfaces gráficas.
 
-## Autor
 
-Desenvolvido por [Seu nome]
+Desenvolvido por [Eduardo Neves]
 
 [GitHub](https://github.com/eduardozxv)
