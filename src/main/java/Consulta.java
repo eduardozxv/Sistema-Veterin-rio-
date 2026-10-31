@@ -20,8 +20,15 @@ public class Consulta {
         this.realizada = false;
     }
 
-    public static String nomeDia(int nomeDia) {
-        return null;
+    public static String nomeDia(int diaSemana) {
+        switch (diaSemana) {
+            case 0: return "Segunda-feira";
+            case 1: return "Terça-feira";
+            case 2: return "Quarta-feira";
+            case 3: return "Quinta-feira";
+            case 4: return "Sexta-feira";
+            default: return "Dia inválido";
+        }
     }
 
     public int getCodigo() {

@@ -1,21 +1,27 @@
 public class Veterinario {
-   private int codigo;
-   private String nome;
-   private String especialidade;
-   private String crmv;
-   private boolean ativo;
 
-    public Veterinario(int codigo, String nome, String especialidade, String crmv){
+    private int codigo;
+    private String nome;
+    private String especialidade;
+    private String crmv;
+    private boolean ativo;
+
+    public Veterinario(
+            int codigo,
+            String nome,
+            String especialidade,
+            String crmv
+    ) {
         this.codigo = codigo;
         this.nome = nome;
         this.especialidade = especialidade;
         this.crmv = crmv;
         this.ativo = true;
     }
+
     public int getCodigo() {
         return codigo;
     }
-
 
     public String getNome() {
         return nome;
@@ -44,14 +50,34 @@ public class Veterinario {
     public boolean isAtivo() {
         return ativo;
     }
-    public void desativar(){
+
+    public void desativar() {
         this.ativo = false;
     }
-    public void exibirDados(){
-        System.out.println("Codigo :" + codigo);
+
+    public void atualizarDados(
+            String nome,
+            String especialidade,
+            String crmv
+    ) {
+        if (nome != null && !nome.isBlank()) {
+            this.nome = nome;
+        }
+
+        if (especialidade != null && !especialidade.isBlank()) {
+            this.especialidade = especialidade;
+        }
+
+        if (crmv != null && !crmv.isBlank()) {
+            this.crmv = crmv;
+        }
+    }
+
+    public void exibirDados() {
+        System.out.println("Código: " + codigo);
         System.out.println("Nome do veterinário: " + nome);
         System.out.println("Especialidade: " + especialidade);
         System.out.println("CRMV: " + crmv);
-        System.out.println("Situação: " + ativo);
+        System.out.println("Situação: " + (ativo ? "Ativo" : "Inativo"));
     }
 }

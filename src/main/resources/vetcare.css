@@ -1,0 +1,315 @@
+/* =====================================
+   CONFIGURAÇÕES GERAIS
+===================================== */
+
+.app-root {
+    -fx-font-family: "Segoe UI";
+}
+
+.tema-escuro {
+    -fx-background-color: #151B19;
+}
+
+.tema-claro {
+    -fx-background-color: #F4F7F5;
+}
+
+/* =====================================
+   MENU LATERAL
+===================================== */
+
+.menu-lateral {
+    -fx-background-color: #101613;
+}
+
+.logo {
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF;
+}
+
+.descricao-menu {
+    -fx-text-fill: #A9C5B5;
+    -fx-font-size: 13px;
+}
+
+.botao-menu {
+    -fx-background-color: transparent;
+    -fx-text-fill: #E5EEE8;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+    -fx-background-radius: 7px;
+}
+
+.botao-menu:hover {
+    -fx-background-color: #263D32;
+    -fx-text-fill: white;
+}
+
+/* =====================================
+   TÍTULOS
+===================================== */
+
+.tema-escuro .titulo-pagina {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #F1F5F2;
+}
+
+.tema-claro .titulo-pagina {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #26352D;
+}
+
+.tema-escuro .subtitulo-pagina {
+    -fx-text-fill: #9BAAA1;
+}
+
+.tema-claro .subtitulo-pagina {
+    -fx-text-fill: #718078;
+}
+
+.tema-escuro .titulo-secao {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #F1F5F2;
+}
+
+.tema-claro .titulo-secao {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #26352D;
+}
+
+/* =====================================
+   PAINÉIS E CARTÕES
+===================================== */
+
+.tema-escuro .painel,
+.tema-escuro .cartao {
+    -fx-background-color: #222D28;
+    -fx-background-radius: 12px;
+}
+
+.tema-claro .painel,
+.tema-claro .cartao {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 12px;
+}
+
+.cartao-titulo {
+    -fx-font-size: 13px;
+}
+
+.tema-escuro .cartao-titulo {
+    -fx-text-fill: #AAB8AF;
+}
+
+.tema-claro .cartao-titulo {
+    -fx-text-fill: #78857D;
+}
+
+.cartao-valor {
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+}
+
+.tema-escuro .cartao-valor {
+    -fx-text-fill: #65B889;
+}
+
+.tema-claro .cartao-valor {
+    -fx-text-fill: #245C45;
+}
+
+.cartao-descricao {
+    -fx-font-size: 11px;
+}
+
+.tema-escuro .cartao-descricao {
+    -fx-text-fill: #9BAAA1;
+}
+
+.tema-claro .cartao-descricao {
+    -fx-text-fill: #8A958E;
+}
+
+/* =====================================
+   TEXTOS E FORMULÁRIOS
+===================================== */
+
+.tema-escuro .label {
+    -fx-text-fill: #DCE6DF;
+}
+
+.tema-claro .label {
+    -fx-text-fill: #26352D;
+}
+
+.text-field,
+.combo-box {
+    -fx-background-radius: 6px;
+    -fx-padding: 8px;
+}
+
+.tema-escuro .text-field,
+.tema-escuro .combo-box {
+    -fx-background-color: #1B2420;
+    -fx-text-fill: #F1F5F2;
+    -fx-prompt-text-fill: #829188;
+    -fx-border-color: #35423B;
+    -fx-border-radius: 6px;
+}
+
+.tema-claro .text-field,
+.tema-claro .combo-box {
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #26352D;
+    -fx-prompt-text-fill: #89958D;
+    -fx-border-color: #D5DED8;
+    -fx-border-radius: 6px;
+}
+
+.tema-escuro .combo-box .list-cell {
+    -fx-text-fill: #F1F5F2;
+    -fx-background-color: #1B2420;
+}
+
+.tema-claro .combo-box .list-cell {
+    -fx-text-fill: #26352D;
+    -fx-background-color: #FFFFFF;
+}
+
+/* =====================================
+   BOTÕES
+===================================== */
+
+.button {
+    -fx-background-radius: 7px;
+    -fx-padding: 9px 15px;
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+}
+
+.tema-escuro .button {
+    -fx-background-color: #35443C;
+    -fx-text-fill: #F1F5F2;
+}
+
+.tema-claro .button {
+    -fx-background-color: #E5ECE7;
+    -fx-text-fill: #26352D;
+}
+
+.tema-escuro .button:hover {
+    -fx-background-color: #46594E;
+}
+
+.tema-claro .button:hover {
+    -fx-background-color: #D5E2D9;
+}
+
+.tema-escuro .botao-principal {
+    -fx-background-color: #4D9B70;
+    -fx-text-fill: white;
+}
+
+.tema-claro .botao-principal {
+    -fx-background-color: #245C45;
+    -fx-text-fill: white;
+}
+
+.botao-principal:hover {
+    -fx-opacity: 0.85;
+}
+
+/* =====================================
+   TABELAS
+===================================== */
+
+.tema-escuro .table-view {
+    -fx-background-color: #1B2420;
+    -fx-control-inner-background: #1B2420;
+    -fx-table-cell-border-color: #35423B;
+    -fx-border-color: #35423B;
+}
+
+.tema-claro .table-view {
+    -fx-background-color: #FFFFFF;
+    -fx-control-inner-background: #FFFFFF;
+    -fx-table-cell-border-color: #E5ECE7;
+    -fx-border-color: #D5DED8;
+}
+
+.tema-escuro .table-view .column-header-background {
+    -fx-background-color: #26352D;
+}
+
+.tema-claro .table-view .column-header-background {
+    -fx-background-color: #EAF0EC;
+}
+
+.tema-escuro .table-view .column-header .label {
+    -fx-text-fill: #F1F5F2;
+    -fx-font-weight: bold;
+}
+
+.tema-claro .table-view .column-header .label {
+    -fx-text-fill: #26352D;
+    -fx-font-weight: bold;
+}
+
+.tema-escuro .table-row-cell {
+    -fx-background-color: #1B2420;
+    -fx-text-background-color: #F1F5F2;
+}
+
+.tema-claro .table-row-cell {
+    -fx-background-color: #FFFFFF;
+    -fx-text-background-color: #26352D;
+}
+
+.tema-escuro .table-row-cell:odd {
+    -fx-background-color: #202B25;
+}
+
+.tema-claro .table-row-cell:odd {
+    -fx-background-color: #F7F9F7;
+}
+
+.tema-escuro .table-row-cell:selected {
+    -fx-background-color: #315B43;
+}
+
+.tema-claro .table-row-cell:selected {
+    -fx-background-color: #C8E2D1;
+}
+
+.table-cell {
+    -fx-padding: 9px;
+}
+
+/* =====================================
+   MENSAGENS
+===================================== */
+
+.mensagem-erro {
+    -fx-text-fill: #E57373;
+}
+
+.mensagem-sucesso {
+    -fx-text-fill: #65B889;
+}
+
+/* =====================================
+   SCROLL
+===================================== */
+
+.tema-escuro .scroll-bar {
+    -fx-background-color: #1B2420;
+}
+
+.tema-claro .scroll-bar {
+    -fx-background-color: #F4F7F5;
+}

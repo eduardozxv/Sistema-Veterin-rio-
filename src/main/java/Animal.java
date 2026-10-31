@@ -97,4 +97,31 @@ public class Animal {
         System.out.println("Nome do tutor: " + nomeTutor);
         System.out.println("Status: " + ativo);
     }
+    public void atualizarDados(
+            String nome,
+            String especie,
+            String raca,
+            int idade,
+            String nomeTutor) {
+
+        if (nome != null && !nome.isBlank()) {
+            this.nome = nome;
+        }
+
+        if (especie != null && !especie.isBlank()) {
+            this.especie = especie;
+        }
+
+        this.raca = raca;
+
+        if (idade >= 0) {
+            this.idade = idade;
+        }
+
+        if (nomeTutor != null && !nomeTutor.isBlank()) {
+            this.nomeTutor = nomeTutor;
+        }
+
+    }
+
 }
